@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">记事本</string>
+    <string name="title_activity_detail">详细内容</string>
+    <string name="clock_event_msg_template">您有事件：%1$s，请记得去完成！</string>
+    <string name="confirm_text">确定</string>
+    <string name="cancel_text">取消</string>
+</resources>
