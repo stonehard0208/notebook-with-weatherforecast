@@ -1,6 +1,6 @@
 # 代码解读 Code interpretation
 
-## 记事本功能
+## 记事本功能 NoteBook funuction
 
 包含两个部分，一个是部分单纯的文本记录功能，还有一个是每一个笔记的提醒时间设置功能。每一个笔记的id、标题、内容和提醒时间等相关信息都作为Note类的属性进行存放。
 
@@ -47,7 +47,7 @@ SQLite数据库中表的创建也是按照Note类的属性的。
 
 ![1592179204(1)](media/794b2dbbf2a9ec5b5135c464a707d0e1.png)
 
-## 闹钟提醒功能
+## 闹钟提醒功能 Clock function
 
 ClockManager类中存放的是获取系统闹钟服务、取消闹钟以及添加脑中的服务，在添加闹钟与更新闹钟均使用addAlarm函数，在函数中，添加闹钟前，如果已经添加过闹钟，则该闹钟被取消。
 
@@ -89,7 +89,7 @@ ClockManager类中存放的是获取系统闹钟服务、取消闹钟以及添�
 
 ![](media/1161755308813e2fb6b9cb81b094ebce.png)
 
-## 天气功能
+## 天气功能 Weather forcast function
 
 XML文件：activity_weather和weather_item。
 
