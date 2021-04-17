@@ -89,7 +89,7 @@ ClockManager类中存放的是获取系统闹钟服务、取消闹钟以及添�
 
 ![](media/1161755308813e2fb6b9cb81b094ebce.png)
 
-## 天气功能 Weather forcast function
+## 天气功能 Weather forecast function
 
 XML文件：activity_weather和weather_item。
 
